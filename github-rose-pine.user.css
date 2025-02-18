@@ -4,6 +4,8 @@
 @version        1.0.0
 @description    A soothing Rosé Pine theme for GitHub
 @author         unkn1wn
+@match          *://github.com/*
+@match          *://gist.github.com/*
 ==/UserStyle== */
 
 :root {
