@@ -4,289 +4,289 @@
 @version        1.0.0
 @description    A soothing Rosé Pine theme for GitHub
 @author         unkn1wn
-@match          *://github.com/*
-@match          *://gist.github.com/*
 ==/UserStyle== */
 
-:root {
-  /* Rosé Pine Base Colors */
-  --rp-base: #191724;
-  --rp-surface: #1f1d2e;
-  --rp-overlay: #26233a;
-  --rp-muted: #6e6a86;
-  --rp-subtle: #908caa;
-  --rp-text: #e0def4;
-  --rp-love: #eb6f92;
-  --rp-gold: #f6c177;
-  --rp-rose: #ebbcba;
-  --rp-pine: #31748f;
-  --rp-foam: #9ccfd8;
-  --rp-iris: #c4a7e7;
-}
+@-moz-document domain("github.com") {
+  :root {
+    /* Rosé Pine Base Colors */
+    --rp-base: #191724;
+    --rp-surface: #1f1d2e;
+    --rp-overlay: #26233a;
+    --rp-muted: #6e6a86;
+    --rp-subtle: #908caa;
+    --rp-text: #e0def4;
+    --rp-love: #eb6f92;
+    --rp-gold: #f6c177;
+    --rp-rose: #ebbcba;
+    --rp-pine: #31748f;
+    --rp-foam: #9ccfd8;
+    --rp-iris: #c4a7e7;
+  }
 
-/* Base Background and Text Colors */
-body {
-  background-color: var(--rp-base) !important;
-  color: var(--rp-text) !important;
-}
+  /* Base Background and Text Colors */
+  body {
+    background-color: var(--rp-base) !important;
+    color: var(--rp-text) !important;
+  }
 
-/* Header */
-.Header {
-  background-color: var(--rp-surface) !important;
-  border-bottom: 1px solid var(--rp-overlay) !important;
-}
+  /* Header */
+  .Header {
+    background-color: var(--rp-surface) !important;
+    border-bottom: 1px solid var(--rp-overlay) !important;
+  }
 
-/* Navigation */
-.UnderlineNav-item {
-  color: var(--rp-subtle) !important;
-}
+  /* Navigation */
+  .UnderlineNav-item {
+    color: var(--rp-subtle) !important;
+  }
 
-.UnderlineNav-item:hover,
-.UnderlineNav-item[aria-current="page"] {
-  color: var(--rp-text) !important;
-  border-bottom-color: var(--rp-rose) !important;
-}
+  .UnderlineNav-item:hover,
+  .UnderlineNav-item[aria-current="page"] {
+    color: var(--rp-text) !important;
+    border-bottom-color: var(--rp-rose) !important;
+  }
 
-/* Repository Content */
-.repository-content {
-  background-color: var(--rp-base) !important;
-}
+  /* Repository Content */
+  .repository-content {
+    background-color: var(--rp-base) !important;
+  }
 
-/* Buttons */
-.btn-primary {
-  background-color: var(--rp-pine) !important;
-  border-color: var(--rp-pine) !important;
-}
+  /* Buttons */
+  .btn-primary {
+    background-color: var(--rp-pine) !important;
+    border-color: var(--rp-pine) !important;
+  }
 
-.btn-secondary {
-  background-color: var(--rp-overlay) !important;
-  border-color: var(--rp-overlay) !important;
-}
+  .btn-secondary {
+    background-color: var(--rp-overlay) !important;
+    border-color: var(--rp-overlay) !important;
+  }
 
-/* Links */
-a {
-  color: var(--rp-foam) !important;
-}
+  /* Links */
+  a {
+    color: var(--rp-foam) !important;
+  }
 
-a:hover {
-  color: var(--rp-rose) !important;
-}
+  a:hover {
+    color: var(--rp-rose) !important;
+  }
 
-/* Issues and Pull Requests */
-.State--green {
-  background-color: var(--rp-pine) !important;
-}
+  /* Issues and Pull Requests */
+  .State--green {
+    background-color: var(--rp-pine) !important;
+  }
 
-.State--red {
-  background-color: var(--rp-love) !important;
-}
+  .State--red {
+    background-color: var(--rp-love) !important;
+  }
 
-.State--purple {
-  background-color: var(--rp-iris) !important;
-}
+  .State--purple {
+    background-color: var(--rp-iris) !important;
+  }
 
-/* Code Blocks */
-.blob-code {
-  background-color: var(--rp-surface) !important;
-}
+  /* Code Blocks */
+  .blob-code {
+    background-color: var(--rp-surface) !important;
+  }
 
-.highlight {
-  background-color: var(--rp-surface) !important;
-}
+  .highlight {
+    background-color: var(--rp-surface) !important;
+  }
 
-/* Sidebar */
-.sidebar {
-  background-color: var(--rp-surface) !important;
-}
+  /* Sidebar */
+  .sidebar {
+    background-color: var(--rp-surface) !important;
+  }
 
-/* Cards and Boxes */
-.Box {
-  background-color: var(--rp-surface) !important;
-  border-color: var(--rp-overlay) !important;
-}
+  /* Cards and Boxes */
+  .Box {
+    background-color: var(--rp-surface) !important;
+    border-color: var(--rp-overlay) !important;
+  }
 
-/* Input Fields */
-.form-control {
-  background-color: var(--rp-overlay) !important;
-  border-color: var(--rp-muted) !important;
-  color: var(--rp-text) !important;
-}
+  /* Input Fields */
+  .form-control {
+    background-color: var(--rp-overlay) !important;
+    border-color: var(--rp-muted) !important;
+    color: var(--rp-text) !important;
+  }
 
-/* Tables */
-.table-list {
-  border-color: var(--rp-overlay) !important;
-}
+  /* Tables */
+  .table-list {
+    border-color: var(--rp-overlay) !important;
+  }
 
-.table-list-item {
-  border-color: var(--rp-overlay) !important;
-}
+  .table-list-item {
+    border-color: var(--rp-overlay) !important;
+  }
 
-/* Notifications */
-.notification-indicator {
-  color: var(--rp-gold) !important;
-}
+  /* Notifications */
+  .notification-indicator {
+    color: var(--rp-gold) !important;
+  }
 
-/* Labels */
-.Label {
-  background-color: var(--rp-overlay) !important;
-}
+  /* Labels */
+  .Label {
+    background-color: var(--rp-overlay) !important;
+  }
 
-/* Search */
-.header-search-input {
-  background-color: var(--rp-overlay) !important;
-  color: var(--rp-text) !important;
-}
+  /* Search */
+  .header-search-input {
+    background-color: var(--rp-overlay) !important;
+    color: var(--rp-text) !important;
+  }
 
-/* Borders */
-.border {
-  border-color: var(--rp-overlay) !important;
-}
+  /* Borders */
+  .border {
+    border-color: var(--rp-overlay) !important;
+  }
 
-/* Markdown Content */
-.markdown-body {
-  color: var(--rp-text) !important;
-  background-color: var(--rp-base) !important;
-}
+  /* Markdown Content */
+  .markdown-body {
+    color: var(--rp-text) !important;
+    background-color: var(--rp-base) !important;
+  }
 
-.markdown-body code {
-  background-color: var(--rp-overlay) !important;
-}
+  .markdown-body code {
+    background-color: var(--rp-overlay) !important;
+  }
 
-.markdown-body pre {
-  background-color: var(--rp-overlay) !important;
-}
+  .markdown-body pre {
+    background-color: var(--rp-overlay) !important;
+  }
 
-.markdown-body h1,
-.markdown-body h2,
-.markdown-body h3,
-.markdown-body h4,
-.markdown-body h5,
-.markdown-body h6 {
-  color: var(--rp-text) !important;
-  border-bottom-color: var(--rp-overlay) !important;
-}
+  .markdown-body h1,
+  .markdown-body h2,
+  .markdown-body h3,
+  .markdown-body h4,
+  .markdown-body h5,
+  .markdown-body h6 {
+    color: var(--rp-text) !important;
+    border-bottom-color: var(--rp-overlay) !important;
+  }
 
-.markdown-body blockquote {
-  color: var(--rp-subtle) !important;
-  border-left-color: var(--rp-overlay) !important;
-}
+  .markdown-body blockquote {
+    color: var(--rp-subtle) !important;
+    border-left-color: var(--rp-overlay) !important;
+  }
 
-.markdown-body table th,
-.markdown-body table td {
-  background-color: var(--rp-surface) !important;
-  border-color: var(--rp-overlay) !important;
-}
+  .markdown-body table th,
+  .markdown-body table td {
+    background-color: var(--rp-surface) !important;
+    border-color: var(--rp-overlay) !important;
+  }
 
-.markdown-body hr {
-  background-color: var(--rp-overlay) !important;
-}
+  .markdown-body hr {
+    background-color: var(--rp-overlay) !important;
+  }
 
-.markdown-body img {
-  background-color: var(--rp-surface) !important;
-}
+  .markdown-body img {
+    background-color: var(--rp-surface) !important;
+  }
 
-/* Repository Container */
-.repository-content .Box {
-  background-color: var(--rp-base) !important;
-}
+  /* Repository Container */
+  .repository-content .Box {
+    background-color: var(--rp-base) !important;
+  }
 
-.Box-header {
-  background-color: var(--rp-surface) !important;
-  border-color: var(--rp-overlay) !important;
-}
+  .Box-header {
+    background-color: var(--rp-surface) !important;
+    border-color: var(--rp-overlay) !important;
+  }
 
-/* File Navigation */
-.file-navigation {
-  background-color: var(--rp-base) !important;
-}
+  /* File Navigation */
+  .file-navigation {
+    background-color: var(--rp-base) !important;
+  }
 
-.file-navigation .btn {
-  background-color: var(--rp-surface) !important;
-  border-color: var(--rp-overlay) !important;
-  color: var(--rp-text) !important;
-}
+  .file-navigation .btn {
+    background-color: var(--rp-surface) !important;
+    border-color: var(--rp-overlay) !important;
+    color: var(--rp-text) !important;
+  }
 
-/* Repository Stats */
-.numbers-summary a {
-  color: var(--rp-text) !important;
-}
+  /* Repository Stats */
+  .numbers-summary a {
+    color: var(--rp-text) !important;
+  }
 
-.numbers-summary .nolink {
-  color: var(--rp-subtle) !important;
-}
+  .numbers-summary .nolink {
+    color: var(--rp-subtle) !important;
+  }
 
-/* About Section */
-.repository-content .BorderGrid {
-  border-color: var(--rp-overlay) !important;
-}
+  /* About Section */
+  .repository-content .BorderGrid {
+    border-color: var(--rp-overlay) !important;
+  }
 
-.BorderGrid-row {
-  border-color: var(--rp-overlay) !important;
-}
+  .BorderGrid-row {
+    border-color: var(--rp-overlay) !important;
+  }
 
-/* Header and Navigation Improvements */
-.Header-item {
-  color: var(--rp-text) !important;
-}
+  /* Header and Navigation Improvements */
+  .Header-item {
+    color: var(--rp-text) !important;
+  }
 
-.header-search-wrapper {
-  background-color: var(--rp-overlay) !important;
-}
+  .header-search-wrapper {
+    background-color: var(--rp-overlay) !important;
+  }
 
-.header-search-input::placeholder {
-  color: var(--rp-subtle) !important;
-}
+  .header-search-input::placeholder {
+    color: var(--rp-subtle) !important;
+  }
 
-/* Global Navigation Bar */
-.global-nav-item {
-  color: var(--rp-text) !important;
-}
+  /* Global Navigation Bar */
+  .global-nav-item {
+    color: var(--rp-text) !important;
+  }
 
-.global-nav-item:hover {
-  background-color: var(--rp-overlay) !important;
-}
+  .global-nav-item:hover {
+    background-color: var(--rp-overlay) !important;
+  }
 
-/* Top Bar Elements */
-.AppHeader {
-  background-color: var(--rp-surface) !important;
-  border-bottom: 1px solid var(--rp-overlay) !important;
-}
+  /* Top Bar Elements */
+  .AppHeader {
+    background-color: var(--rp-surface) !important;
+    border-bottom: 1px solid var(--rp-overlay) !important;
+  }
 
-.AppHeader-globalBar {
-  background-color: var(--rp-surface) !important;
-}
+  .AppHeader-globalBar {
+    background-color: var(--rp-surface) !important;
+  }
 
-.AppHeader-localBar {
-  background-color: var(--rp-surface) !important;
-}
+  .AppHeader-localBar {
+    background-color: var(--rp-surface) !important;
+  }
 
-.AppHeader-user {
-  color: var(--rp-text) !important;
-}
+  .AppHeader-user {
+    color: var(--rp-text) !important;
+  }
 
-/* Dropdown Menus */
-.dropdown-menu {
-  background-color: var(--rp-surface) !important;
-  border-color: var(--rp-overlay) !important;
-}
+  /* Dropdown Menus */
+  .dropdown-menu {
+    background-color: var(--rp-surface) !important;
+    border-color: var(--rp-overlay) !important;
+  }
 
-.dropdown-item {
-  color: var(--rp-text) !important;
-}
+  .dropdown-item {
+    color: var(--rp-text) !important;
+  }
 
-.dropdown-item:hover {
-  background-color: var(--rp-overlay) !important;
-}
+  .dropdown-item:hover {
+    background-color: var(--rp-overlay) !important;
+  }
 
-/* Avatar and Status */
-.avatar-user {
-  border-color: var(--rp-overlay) !important;
-}
+  /* Avatar and Status */
+  .avatar-user {
+    border-color: var(--rp-overlay) !important;
+  }
 
-.color-fg-default {
-  color: var(--rp-text) !important;
-}
+  .color-fg-default {
+    color: var(--rp-text) !important;
+  }
 
-.color-fg-muted {
-  color: var(--rp-subtle) !important;
+  .color-fg-muted {
+    color: var(--rp-subtle) !important;
+  }
 } 
