@@ -11,10 +11,12 @@
     </a>
 </p>
 
+## NOTE: This is a WIP (Work In Progress) and is yet to be completed
+
 ## Usage
 
 1. Download [Stylus](https://github.com/openstyles/stylus)
-2. Go to this [page](fff) to install
+2. Go to this [page](https://github.com/JuviGamez/github-rose-pine/raw/refs/heads/main/github-rose-pine.user.css) to install
 3. Enjoy!
 
 ## Gallery
