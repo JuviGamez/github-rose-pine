@@ -21,7 +21,8 @@
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+![gallery1](https://raw.githubusercontent.com/JuviGamez/github-rose-pine/f47b0cc5d9e61b4932872f61aa97803a37e7d617/Screenshot%202025-02-18%20200128.png)
+![gallery2](https://raw.githubusercontent.com/JuviGamez/github-rose-pine/f47b0cc5d9e61b4932872f61aa97803a37e7d617/Screenshot%202025-02-18%20201301.png)
 
 ## Thanks to
 
